@@ -1,0 +1,23 @@
+.container {
+  max-width: 120rem;
+  margin: 4rem ;
+  background-color: var(--color-grey-light-1);
+  box-shadow: var(--shadow-dark);
+  height: 100%;
+  min-height: 70em; 
+  display: flex;
+  flex-direction: column;
+
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  position: relative;
+  height: 100%;
+
+}
+  @media only screen and (max-width: 75em) {
+    .container {
+      margin: 0;
+      max-width: 100%;
+      width: 100%; } }

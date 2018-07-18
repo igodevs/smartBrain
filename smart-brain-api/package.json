@@ -1,0 +1,28 @@
+{
+  "name": "Server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "clarifai": "^2.7.1",
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "knex": "^0.14.6",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.3",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}

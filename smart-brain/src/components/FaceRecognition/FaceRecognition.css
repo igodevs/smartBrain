@@ -1,0 +1,21 @@
+.box {
+	margin-right: auto;
+    margin-left: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.box-img {
+	position: absolute;
+	margin-top: 2rem;
+}
+.bounding-box {
+	position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}

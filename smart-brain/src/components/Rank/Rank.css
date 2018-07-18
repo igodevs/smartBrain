@@ -1,0 +1,12 @@
+.rank {
+	display: flex;
+	flex-direction: column;
+	margin-top: 3rem;
+
+}
+.rank1, .rank2, .rank3{
+	display: flex;
+	justify-content: center;
+	margin-top: 0.5rem;
+	color: white;
+}

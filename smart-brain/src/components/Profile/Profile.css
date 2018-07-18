@@ -1,0 +1,219 @@
+.profile-modal {
+	background-color: rgba(255, 255, 255, 0.5);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top:0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-close {
+	font-size: 3rem;
+	font-style: bold;
+	cursor:pointer;
+}
+
+.modal-close:hover {
+	color:grey;
+	cursor: pointer;
+}
+
+.logos {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	border-top: 5px;
+	margin-right: 20px;
+}
+
+.dropdown-menu-right{
+	margin-top: 0px !important;
+	margin-right: 20px !important;
+	left: 7px !important;
+
+}
+.dropdown-item {
+	font-weight: 400 !important;
+	font-size: 0.9rem;
+}
+
+@media screen and (min-width: 60em){
+.article {
+    width: 25%;
+}
+}
+
+.article{
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    width: 100%!important;
+    max-width: 32rem;
+    -webkit-box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 );
+    box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 );
+    border-radius: .5rem;
+    border-color: rgba( 0, 0, 0, .1 );
+
+}
+/*@media screen and (min-width: 60em)
+.w-25-l {
+    width: 25%;
+}
+
+<style>…</style>
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+<style>…</style>
+.mv4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+<style>…</style>
+.bg-white {
+    background-color: #fff;
+}
+<style>…</style>
+.w-100 {
+    width: 100%;
+}
+<style>…</style>
+.mw6 {
+    max-width: 32rem;
+}
+<style>…</style>
+.shadow-5 {
+    -webkit-box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 );
+    box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 );
+}
+<style>…</style>
+.br3 {
+    border-radius: .5rem;
+}
+<style>…</style>
+.b--black-10 {
+    border-color: rgba( 0, 0, 0, .1 );
+}
+<style>…</style>
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+<style>…</style>
+.w-100 {
+    width: 100%!important;
+}
+<style>…</style>
+.bg-white {
+    background-color: #fff!important;
+}
+<style>…</style>
+.center {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.////*/
+
+.main{
+	padding: 2rem;
+    color: rgba( 0, 0, 0, .8 );
+    width: 80%;
+    color: rgba( 0, 0, 0, .8 );
+    width: 80%;
+}
+
+/*.pa4 {
+    padding: 2rem;
+    color: rgba( 0, 0, 0, .8 );
+    width: 80%;
+}
+<style>…</style>
+.black-80 {
+    color: rgba( 0, 0, 0, .8 );
+}
+<style>…</style>
+.w-80 {
+    width: 80%;
+}*/
+
+.image{
+	width: 4rem;
+	height: 4rem;
+	display: inline-block;
+	font-size: 1.75rem;
+	margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    margin-top: .5rem;
+    border-radius: 100%;
+}
+/*.w3 {
+    width: 4rem;
+}
+
+<style>…</style>
+.h3 {
+    height: 4rem;
+}
+<style>…</style>
+.dib {
+    display: inline-block;
+}
+<style>…</style>
+.h3, h3 {
+    font-size: 1.75rem;
+}
+<style>…</style>
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}*/
+
+.lab {
+	margin-top: .5rem;
+	font-weight: 600;
+}
+
+
+.inp{
+	padding: .5rem;
+}
+
+.pa2 {
+    padding: .5rem;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%!important;
+}
+
+/*<style>…</style>
+.w-100 {
+    width: 100%;
+}
+<style>…</style>
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+<style>…</style>
+.w-100 {
+    width: 100%!important;
+}*/

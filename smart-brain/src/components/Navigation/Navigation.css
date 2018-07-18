@@ -1,0 +1,48 @@
+.header {
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  @media only screen and (max-width: 31.25em) {
+    .header {
+      flex-wrap: wrap;
+      align-content: space-around;
+      height: 6rem; } }
+
+.header-signin {
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  @media only screen and (max-width: 31.25em) {
+    .header-signin {
+      flex-wrap: wrap;
+      align-content: space-around;
+      height: 6rem; } }
+
+.user-nav {
+  display: flex;
+  flex-direction: row;
+}
+.signin {
+  margin-right: 1.5em;
+}
+.signin:hover {
+  cursor: pointer;
+}
+.register {
+  margin-right: 2em;
+}
+.register:hover {
+  cursor: pointer;
+}
+
+.logo {
+  margin-left: 1em;
+}

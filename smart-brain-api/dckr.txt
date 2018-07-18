@@ -1,0 +1,54 @@
+touch Dockerfile
+build -t superawesomeconstainer .
+run -it superawesomeconstainer
+node -v //in container
+
+//docker comands
+
+//
+docker ps
+
+//run container in background
+docker run -it -d superawesomeconstainer
+
+//go to container with id
+docker exec -it 41f39b85339b bash
+
+//stop docker
+docker stop 41f39b85339b
+
+
+//dockerfile 2
+//in Dockerfile
+WORKDIR /usr/src/UdemyCourse/NEWCourse/Docker/smart-brain-api
+
+COPY ./ ./
+
+RUN npm install
+
+//
+docker build -t superawesomeconstainer .
+docker run -it -p 3000:3000 superawesomeconstainer
+
+//how to remove and visit containers and images
+docker images
+docker ps -a
+
+docker rmi
+docker rm
+docker rmi (sudo docker images --filter "dangling=true" -q --no-trunc)
+
+docker-compose up --build
+
+//docker compose 3
+
+//up and down docker-compose
+docker-compose up
+docker-compose down
+
+//go to bash docker compose
+docker-compose exec smart-brain-api bash
+
+//redis in smart-brain-api dir
+docker-compose exex redis redis-cli
+
